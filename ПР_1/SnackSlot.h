@@ -1,7 +1,6 @@
 #pragma once
 #include "Snack.h"
 #include <iostream>
-#include <string>
 
 class SnackSlot {
 private:

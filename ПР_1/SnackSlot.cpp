@@ -19,14 +19,6 @@ void SnackSlot::SnackCount() {
 }
 
 void SnackSlot::addSnack(Snack* snack) {
-    /*if (_unFilledCount > 0) {
-        for (int i = 0; i < _capacity; ++i) {
-            if (snacks[i] == nullptr) {
-                snacks[i] = snack;
-                _unFilledCount--;
-            }
-        }
-    }*/
     if (_unFilledCount > 0) {
         snacks[_unFilledCount] = snack;
         _unFilledCount--;
